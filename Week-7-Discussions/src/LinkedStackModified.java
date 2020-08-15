@@ -11,12 +11,12 @@ class LinkedNode {
 }
 
 // This class implements a Stack ADT as a linked list
-public class LinkedStack {
+public class LinkedStackModified {
 	LinkedNode front;  // Reference to the first LinkedNode in the list
 	int count;         // Number of nodes in the list
 	
 	// Constructor - initializes the front and count variables
-	LinkedStack() {
+	LinkedStackModified() {
 		front = null;
 		count = 0;
 	}
